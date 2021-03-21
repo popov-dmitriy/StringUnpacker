@@ -4,7 +4,7 @@ public class stringUnpacker {
 
     public static void main(String[] args) {
 
-        String input = "2[3[x]y]"; //"3[2[x]y]3[z]";
+        String input = "q2[a3[d2[er0[qwerty]]x]s]"; // -> qadererxdererxdererxsadererxdererxdererxs
 
         if (isValid(input)) {
             String output = unpackString(input);
